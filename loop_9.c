@@ -4,11 +4,12 @@ void main()
     int i,n,sum=0;
 
 
-    printf("Enter value till you want sum of even no. : ");
+    printf("Enter value for n : ");
     scanf("%d",&n);
-    for(i=2;i<=n;i=i+2)
+    for(i=1;i<=n;i++)
     {
-        sum=sum+i;
+        sum=sum+i*2;
     }
     printf("sum of first n even no. = %d",sum);
 }
+
