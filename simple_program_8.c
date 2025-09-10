@@ -5,5 +5,6 @@ void main()
     printf("Dollors : ");
     scanf("%f",&x);
 
-    printf("In Rs : %.2f",x*87);
+    printf("In Rs : %.2f",x*48);
+
 }
