@@ -5,5 +5,6 @@ void main()
     printf("Rs : ");
     scanf("%f",&x);
 
-    printf("In Dollors : %.2f",x/87);
+    printf("In Dollors : %.2f",x/48);
+
 }
